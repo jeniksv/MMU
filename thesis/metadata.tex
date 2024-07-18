@@ -1,0 +1,100 @@
+%%% Please fill in basic information on your thesis, which will be automatically
+%%% inserted at the right places.
+
+% Type of your thesis:
+%	"bc" for Bachelor's
+%	"mgr" for Master's
+%	"phd" for PhD
+%	"rig" for rigorosum
+\def\ThesisType{bc}
+
+% Language of your study programme:
+%	"cs" for Czech
+%	"en" for English
+\def\StudyLanguage{cs}
+
+% Thesis title in English (exactly as in the official assignment)
+% (Note: \xxx is a "ToDo label" which makes the unfilled visible. Remove it.)
+\def\ThesisTitle{Multicolor print implementation for 3D printer}
+
+% Author of the thesis (you)
+\def\ThesisAuthor{Jan Svojanovsky}
+
+% Year when the thesis is submitted
+\def\YearSubmitted{2024}
+
+% Name of the department or institute, where the work was officially assigned
+% (according to the Organizational Structure of MFF UK in English,
+% see https://www.mff.cuni.cz/en/faculty/organizational-structure,
+% or a full name of a department outside MFF)
+\def\Department{Department of Software Engineering}
+
+% Is it a department (katedra), or an institute (ústav)?
+\def\DeptType{Department}
+
+% Thesis supervisor: name, surname and titles
+\def\Supervisor{RNDr. Filip Zavoral, Ph.D.}
+
+% Supervisor's department (again according to Organizational structure of MFF)
+\def\SupervisorsDepartment{Department of Software Engineering}
+
+% Study programme (does not apply to rigorosum theses)
+\def\StudyProgramme{System Programming}
+
+% An optional dedication: you can thank whomever you wish (your supervisor,
+% consultant, who provided you with tea and pizza, etc.)
+\def\Dedication{%
+{
+To my family, thank you for keeping me alive during this thesis writing process and excusing me from household duties.
+
+To my supervisor, RNDr. Filip Zavoral, Ph.D., whose guidance, patience, and vast expertise throughout my entire thesis. Your readiness to review my work, even just days before submission, was immensely appreciated.
+
+To my roommates, thank you for keeping me grounded and bringing laughter into my life with the occasional beer when reality seemed too distant.
+
+A special thanks to Prusa Research for providing the MK4 printer and all the necessary electronics, which were essential to the success of my project.
+}
+}
+
+% Abstract (recommended length around 80-200 words; this is not a copy of your thesis assignment!)
+\def\Abstract{
+{
+This thesis presents the design, development, and implementation of a Multi-Material Unit (MMU) for enhancing multi-color 3D printing capabilities. We have designed a new MMU prototype, developing its firmware using C++ on a microcontroller platform. The architecture of firmware is modular, facilitating straightforward integration of additional features and functionalities. One of the central part was the development of a communication protocol for interfacing the MMU with a 3D printer, ensuring efficient command and control operations. The system utilizes multiple motors and sensors to manage filament changes. The practicality of the proposed design was validated through a functional proof-of-concept prototype, which demonstrated the MMU's capability to streamline the printing process and reduce system complexity.
+}
+}
+% 3 to 5 keywords (recommended) separated by \sep
+% Keywords are useful for indexing and searching for the theses by topic.
+\def\ThesisKeywords{%
+{firmware developement \sep embeeded system \sep 3D print \sep MMU}
+}
+
+% If any of your metadata strings contains TeX macros, you need to provide
+% a plain-text version for use in XMP metadata embedded in the output PDF file.
+% If you are not sure, check the generated thesis.xmpdata file.
+\def\ThesisAuthorXMP{\ThesisAuthor}
+\def\ThesisTitleXMP{\ThesisTitle}
+\def\ThesisKeywordsXMP{\ThesisKeywords}
+\def\AbstractXMP{\Abstract}
+
+% If your abstracts are long and do not fit in the infopage, you can make the
+% fonts a bit smaller by this setting. (Also, you should try to compress your abstract more.)
+\def\InfoPageFont{}
+%\def\InfoPageFont{\small}  % uncomment to decrease font size
+
+% If you are studing in a Czech programme, you also need to provide metadata in Czech:
+% (in English programmes, this is not used anywhere)
+
+\def\ThesisTitleCS{Implementace vícebarevného tisku pro 3D tiskárnu}
+\def\DepartmentCS{Katedra Softwarového Inženýrství}
+\def\DeptTypeCS{Katedra}
+\def\SupervisorsDepartmentCS{Katedra Softwarového Inženýrství}
+\def\StudyProgrammeCS{Systémové programování}
+
+\def\ThesisKeywordsCS{%
+{vývoj firmwaru \sep vestavěný systém \sep 3D tisk \sep MMU}
+}
+
+\def\AbstractCS{%
+{
+Tato práce představuje návrh, vývoj a implementaci jednotky pro více materiálů (MMU), která zlepšuje schopnosti tisku s více barvami ve 3D tisku. Navrhli jsme nový prototyp MMU a vyvinuli jsme jeho firmware v jazyce C++ na platformě mikrokontroléru. Architektura firmware je modulární, což usnadňuje jednoduchou integraci dalších funkcí a možností. Jednou z klíčových částí byl vývoj komunikačního protokolu pro rozhraní MMU s 3D tiskárnou, což zajišťuje efektivní operace příkazů a kontroly. Systém využívá několik motorů a senzorů pro správu změn filamentů. Praktičnost navrhovaného designu byla ověřena prostřednictvím funkčního prototypu, který demonstroval schopnost MMU zjednodušit tiskový proces a snížit složitost systému.
+}
+}

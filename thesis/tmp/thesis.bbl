@@ -1,0 +1,533 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{fdm}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Fused Deposition Modeling}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Fused_filament_fabrication
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Fused_filament_fabrication
+      \endverb
+    \endentry
+    \entry{stl}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{STL format}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/STL_(file_format)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/STL_(file_format)
+      \endverb
+    \endentry
+    \entry{slicer}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Prusa Slicer}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com/page/prusaslicer_424/
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com/page/prusaslicer_424/
+      \endverb
+    \endentry
+    \entry{gcode}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{G-code}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/G-code
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/G-code
+      \endverb
+    \endentry
+    \entry{3d-print-basics}{book}{}
+      \name{author}{3}{}{%
+        {{hash=4716e11fe0ce2e49a1a083212c50b825}{%
+           family={Stříteský},
+           familyi={S\bibinitperiod},
+           given={Ondřej},
+           giveni={O\bibinitperiod}}}%
+        {{hash=95ad3aac62ba0330cc293f2a6faad12a}{%
+           family={Průša},
+           familyi={P\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4a42ba65d310f6b32735002e98dd3c45}{%
+           family={Bach},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Praha}%
+      }
+      \list{publisher}{1}{%
+        {Prusa Research}%
+      }
+      \strng{namehash}{ae7a6a4e7403f114efed81262e8ea835}
+      \strng{fullhash}{bea42989ee19f7a779fef32da9cbe900}
+      \strng{bibnamehash}{bea42989ee19f7a779fef32da9cbe900}
+      \strng{authorbibnamehash}{bea42989ee19f7a779fef32da9cbe900}
+      \strng{authornamehash}{ae7a6a4e7403f114efed81262e8ea835}
+      \strng{authorfullhash}{bea42989ee19f7a779fef32da9cbe900}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{3D PRINTING TECHNOLOGIES - FFF 3D printers components}
+      \field{title}{Basics of 3D Printing with Josef Prusa}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com/downloads/basics-of-3d-printing.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com/downloads/basics-of-3d-printing.pdf
+      \endverb
+    \endentry
+    \entry{ptfe}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{PTFE}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com/cs/produkt/hotend-ptfe-tube-mk2-5s-mk3s-mmu2s/
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com/cs/produkt/hotend-ptfe-tube-mk2-5s-mk3s-mmu2s/
+      \endverb
+    \endentry
+    \entry{dc-motor}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Direct Current Motor}
+      \verb{urlraw}
+      \verb https://www.iqsdirectory.com/articles/electric-motor/dc-motors.html
+      \endverb
+      \verb{url}
+      \verb https://www.iqsdirectory.com/articles/electric-motor/dc-motors.html
+      \endverb
+    \endentry
+    \entry{hall-effect}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Hall Effect}
+      \verb{urlraw}
+      \verb https://www.britannica.com/science/Hall-effect
+      \endverb
+      \verb{url}
+      \verb https://www.britannica.com/science/Hall-effect
+      \endverb
+    \endentry
+    \entry{prusa-xl}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Prusa XL}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com/product/original-prusa-xl-semi-assembled-5-toolhead-3d-printer/
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com/product/original-prusa-xl-semi-assembled-5-toolhead-3d-printer/
+      \endverb
+    \endentry
+    \entry{prusa-mmu3}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Prusa MMU3}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com/product/original-prusa-mmu3-upgrade-kit-for-mk3s-2/
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com/product/original-prusa-mmu3-upgrade-kit-for-mk3s-2/
+      \endverb
+    \endentry
+    \entry{master-slave}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Master–slave architecture}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Master%E2%80%93slave_(technology)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Master%E2%80%93slave_(technology)
+      \endverb
+    \endentry
+    \entry{can}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{CAN bus}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/CAN_bus
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/CAN_bus
+      \endverb
+    \endentry
+    \entry{uart}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{UART}
+      \verb{urlraw}
+      \verb https://cs.wikipedia.org/wiki/UART
+      \endverb
+      \verb{url}
+      \verb https://cs.wikipedia.org/wiki/UART
+      \endverb
+    \endentry
+    \entry{modbus}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Modbus}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Modbus
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Modbus
+      \endverb
+    \endentry
+    \entry{mspm0g3507}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \verb{urlraw}
+      \verb https://www.ti.com/tool/LP-MSPM0G3507
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/tool/LP-MSPM0G3507
+      \endverb
+    \endentry
+    \entry{avr-price}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{AVR price}
+      \verb{urlraw}
+      \verb https://eu.mouser.com/ProductDetail/Microchip-Technology/ATMEGA8-16PU?qs=7JStj/jQ2SFlSdRaC1qNjQ%3D%3D
+      \endverb
+      \verb{url}
+      \verb https://eu.mouser.com/ProductDetail/Microchip-Technology/ATMEGA8-16PU?qs=7JStj/jQ2SFlSdRaC1qNjQ%3D%3D
+      \endverb
+    \endentry
+    \entry{arm-cortex}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Cortex-M0+}
+      \verb{urlraw}
+      \verb https://developer.arm.com/Processors/Cortex-M0-Plus
+      \endverb
+      \verb{url}
+      \verb https://developer.arm.com/Processors/Cortex-M0-Plus
+      \endverb
+    \endentry
+    \entry{mspm0-manual}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ug/slau846a/slau846a.pdf?ts=1713079548866&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSPM0G3507
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ug/slau846a/slau846a.pdf?ts=1713079548866&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSPM0G3507
+      \endverb
+    \endentry
+    \entry{motor-driver}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{TB6612FNG Dual Motor Driver Carrier}
+      \verb{urlraw}
+      \verb https://www.pololu.com/product/713
+      \endverb
+      \verb{url}
+      \verb https://www.pololu.com/product/713
+      \endverb
+    \endentry
+    \entry{hall-effect-sensor}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Hall effect sensor datasheet}
+      \verb{urlraw}
+      \verb https://evelta.com/content/datasheets/360-MT9105ET.pdf
+      \endverb
+      \verb{url}
+      \verb https://evelta.com/content/datasheets/360-MT9105ET.pdf
+      \endverb
+    \endentry
+    \entry{sysconfig}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{SysConfig}
+      \verb{urlraw}
+      \verb https://www.ti.com/tool/download/SYSCONFIG/1.17.0.3128
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/tool/download/SYSCONFIG/1.17.0.3128
+      \endverb
+    \endentry
+    \entry{make}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Make}
+      \verb{urlraw}
+      \verb https://www.gnu.org/software/make/manual/make.html
+      \endverb
+      \verb{url}
+      \verb https://www.gnu.org/software/make/manual/make.html
+      \endverb
+    \endentry
+    \entry{cmake}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{CMake}
+      \verb{urlraw}
+      \verb https://cmake.org/
+      \endverb
+      \verb{url}
+      \verb https://cmake.org/
+      \endverb
+    \endentry
+    \entry{google-test}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Test repository}
+      \verb{urlraw}
+      \verb https://github.com/google/googletest
+      \endverb
+      \verb{url}
+      \verb https://github.com/google/googletest
+      \endverb
+    \endentry
+    \entry{google-mock}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Mock repository}
+      \verb{urlraw}
+      \verb https://google.github.io/googletest/gmock_cook_book.html
+      \endverb
+      \verb{url}
+      \verb https://google.github.io/googletest/gmock_cook_book.html
+      \endverb
+    \endentry
+    \entry{catch2}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Catch2 repository}
+      \verb{urlraw}
+      \verb https://github.com/catchorg/Catch2
+      \endverb
+      \verb{url}
+      \verb https://github.com/catchorg/Catch2
+      \endverb
+    \endentry
+    \entry{docker}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Docker}
+      \verb{urlraw}
+      \verb https://www.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/
+      \endverb
+    \endentry
+    \entry{ccs}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Code Composer Studio}
+      \verb{urlraw}
+      \verb https://www.ti.com/tool/CCSTUDIO
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/tool/CCSTUDIO
+      \endverb
+    \endentry
+    \entry{driver-lib}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Texas Instruments driver library}
+      \verb{urlraw}
+      \verb https://dev.ti.com/tirex/explore/node?node=A__AKc6sRDImfLcqfXkLIu3AQ__MSPM0-SDK__a3PaaoK__LATEST
+      \endverb
+      \verb{url}
+      \verb https://dev.ti.com/tirex/explore/node?node=A__AKc6sRDImfLcqfXkLIu3AQ__MSPM0-SDK__a3PaaoK__LATEST
+      \endverb
+    \endentry
+    \entry{crc}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{CRC}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Cyclic_redundancy_check
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Cyclic_redundancy_check
+      \endverb
+    \endentry
+    \entry{pwm}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{PWM}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Pulse-width_modulation#:~:text=Pulse%2Dwidth%20modulation%20(PWM),methods%20also%20a%20varying%20period).
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Pulse-width_modulation#:~:text=Pulse%2Dwidth%20modulation%20(PWM),methods%20also%20a%20varying%20period).
+      \endverb
+    \endentry
+    \entry{pid}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{PID regulation}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller
+      \endverb
+    \endentry
+    \entry{petg}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{PETG}
+      \verb{urlraw}
+      \verb https://help.prusa3d.com/article/petg_2059
+      \endverb
+      \verb{url}
+      \verb https://help.prusa3d.com/article/petg_2059
+      \endverb
+    \endentry
+    \entry{debugger}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Debugger}
+      \verb{urlraw}
+      \verb https://www.ti.com/tool/LP-XDS110
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/tool/LP-XDS110
+      \endverb
+    \endentry
+    \entry{kalman-filter}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Kalman-filter}
+      \verb{urlraw}
+      \verb https://web.mit.edu/kirtley/kirtley/binlustuff/literature/control/Kalman%20filter.pdf
+      \endverb
+      \verb{url}
+      \verb https://web.mit.edu/kirtley/kirtley/binlustuff/literature/control/Kalman%20filter.pdf
+      \endverb
+    \endentry
+    \entry{prusa-printers}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Prusa printers}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com/category/3d-printers/
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com/category/3d-printers/
+      \endverb
+    \endentry
+    \entry{prusa-mini}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Prusa Mini}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/
+      \endverb
+    \endentry
+    \entry{compiler}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{TI-clang}
+      \verb{urlraw}
+      \verb https://www.ti.com/tool/download/ARM-CGT-CLANG/3.2.1.LTS
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/tool/download/ARM-CGT-CLANG/3.2.1.LTS
+      \endverb
+    \endentry
+    \entry{sdk}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{SDK}
+      \verb{urlraw}
+      \verb https://github.com/TexasInstruments/mspm0-sdk
+      \endverb
+      \verb{url}
+      \verb https://github.com/TexasInstruments/mspm0-sdk
+      \endverb
+    \endentry
+    \entry{uniflash}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Uniflash}
+      \verb{urlraw}
+      \verb https://www.ti.com/tool/download/UNIFLASH/8.3.0
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/tool/download/UNIFLASH/8.3.0
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

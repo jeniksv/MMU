@@ -1,0 +1,1472 @@
+src_linkInfo.xml:         <path>/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/</path>
+src_linkInfo.xml:         <path>/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/</path>
+src_linkInfo.xml:         <path>/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/</path>
+src_linkInfo.xml:         <path>/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/</path>
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+.clangd/compile_commands.json:      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+main.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+main.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+subdir_rules.mk:	"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/bin/tiarmclang" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"/home/jenda/Bakalarka/src" -I"/home/jenda/Bakalarka/src/Debug" -I"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include" -I"/home/jenda/ti/mspm0_sdk_2_00_01_00/source" -gdwarf-3 -MMD -MP -MF"$(basename $(<F)).d_raw" -MT"$(@)"  $(GEN_OPTS__FLAG) -o"$@" "$(shell echo $<)"
+subdir_rules.mk:	"/home/jenda/ti/ccstheia131/ccs/utils/sysconfig_1.19.0/sysconfig_cli.sh" --script "/home/jenda/Bakalarka/src/main.syscfg" -o "." -s "/home/jenda/ti/mspm0_sdk_2_00_01_00/.metadata/product.json" --compiler ticlang
+subdir_rules.mk:	"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/bin/tiarmclang" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"/home/jenda/Bakalarka/src" -I"/home/jenda/Bakalarka/src/Debug" -I"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include" -I"/home/jenda/ti/mspm0_sdk_2_00_01_00/source" -gdwarf-3 -MMD -MP -MF"$(basename $(<F)).d_raw" -MT"$(@)"  $(GEN_OPTS__FLAG) -o"$@" "$(shell echo $<)"
+subdir_rules.mk:startup_mspm0g350x_ticlang.o: /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+subdir_rules.mk:	"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/bin/tiarmclang" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"/home/jenda/Bakalarka/src" -I"/home/jenda/Bakalarka/src/Debug" -I"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include" -I"/home/jenda/ti/mspm0_sdk_2_00_01_00/source" -gdwarf-3 -MMD -MP -MF"$(basename $(<F)).d_raw" -MT"$(@)"  $(GEN_OPTS__FLAG) -o"$@" "$(shell echo $<)"
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+load_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+load_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+unload_from_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+unload_from_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+tool_change_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+tool_change_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+eject_filament_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+eject_filament_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+subdir_vars.mk:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c 
+subdir_vars.mk:"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c" 
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+load_to_nozzle_command.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+load_to_nozzle_command.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+concrete_command_base.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+concrete_command_base.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+pins.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+pins.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+src.map:    /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+app.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+app.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h \
+pulley_system.d_raw:  /home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h \
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/msp.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/DeviceFamily.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/m0p/mspm0g350x.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include/core_cm0plus.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_adc12.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_aes.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_comp.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_crc.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dac12.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_dma.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_flashctl.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gpio.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_gptimer.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_i2c.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_iomux.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mathacl.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_mcan.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_oa.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_rtc.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_spi.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_trng.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_uart.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_vref.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wuc.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/hw_wwdt.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_factoryregion.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/driverlib.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_adc12.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_common.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aes.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_aesadv.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_comp.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crc.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_crcp.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dac12.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_dma.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_flashctl.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_factoryregion.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_core.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_sysctl.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpamp.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_gpio.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_i2c.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_iwdt.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lfss.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_keystorectl.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_lcd.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mathacl.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_mcan.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_opa.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_common.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_rtc_a.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_scratchpad.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_spi.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_tamperio.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timera.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timer.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_timerg.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_trng.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_extend.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_uart_main.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_vref.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/dl_wwdt.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_interrupt.h:
+pulley_system.d_raw:/home/jenda/ti/mspm0_sdk_2_00_01_00/source/ti/driverlib/m0p/dl_systick.h:
+makefile:	"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/bin/tiarmclang" @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -gdwarf-3 -Wl,-m"src.map" -Wl,-i"/home/jenda/ti/mspm0_sdk_2_00_01_00/source" -Wl,-i"/home/jenda/Bakalarka/src" -Wl,-i"/home/jenda/Bakalarka/src/Debug/syscfg" -Wl,-i"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib" -Wl,--diag_wrap=off -Wl,--display_error_number -Wl,--warn_sections -Wl,--xml_link_info="src_linkInfo.xml" -Wl,--rom_model -o "src.out" $(ORDERED_OBJS)

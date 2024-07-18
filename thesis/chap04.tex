@@ -1,0 +1,60 @@
+\chapter{System architecture}
+
+In this chapter, we will focus on decisions from the perspective of the system's architecture.
+
+\section{Firmware architecture}
+
+The firmware of the MMU is strategically designed around a state machine architecture, tailored to efficiently manage a wide array of simple states required by its operations. This system is particularly effective due to the MMU's role as a slave device that exclusively receives and executes commands from a printer.
+
+One key design decision is the omission of a real-time operating system to keep the system as resource-efficient as possible. Consequently, all sensor and motor controls are either interrupt-driven or blocking, which is not ideal but it has been chosen to simplify the system.
+
+Another important strategy in the MMU firmware design is the avoidance of dynamic memory allocation. Dynamic allocations can lead to memory fragmentation, which, in an embedded system like the MMU, can cause severe issues such as memory leaks and system crashes. Instead, the firmware uses references to already created objects and resets the state of these objects as necessary. This approach minimizes the need for new memory allocations during runtime, enhancing the system’s stability and performance by maintaining a predictable memory footprint.
+
+\subsection{Architectural overview}
+
+At the core of the system is the \texttt{App} class, which facilitates access to communication mediums and handles messages received through these mediums, parsed by the \texttt{Protocol} class.
+
+Commands are categorized into two types: specific commands that execute respective actions and composite commands that are composed of multiple specific commands. This structure allows for dynamic and flexible command processing, tailored to the complex requirements of the system.
+\texttt{CommandBase} serves as the abstract base for all commands, providing basic structure and methods. Derived from this base class are \texttt{ConcreteCommandBase} and other specific command classes like \texttt{LoadFilamentCommand}.
+
+Moreover, \texttt{ConcreteCommandBase} introduces more specialized members. Class \texttt{FeedingSystem} handles the coordination and operational logic of motor-driven feeding mechanisms, utilizing sensors to monitor and control the state of the filament. It serves as a high-level abstraction for the feeding mechanism, enabling actions like monitoring filament presence, adjusting motor operations, and responding to operational anomalies. Additionally, \texttt{HubFilamentSensor} the and \texttt{Registers} components abstract the interactions with hardware sensors and system registers, respectively. These abstractions help manage the complexity of direct hardware manipulation and promote a modular approach to system design.
+
+Main classes and their relationships are illustrated in Figure~\ref{fig:uml_diagram}, showing their inheritance and methods.
+
+\begin{figure}[ht]
+    \centering
+    \scalebox{1}{
+        \input{architecture}
+    }
+    \vspace{15pt}
+    \caption{UML diagram of the system architecture.}
+    \label{fig:uml_diagram}
+\end{figure}
+
+\subsection{Portability}
+
+The MMU is built on top of the Driver Library \cite{driver-lib} made by Texas Instruments, which interfaces directly with hardware registers. This library does not automate all functionalities; manual configuration through are necessary for all hardware components. To improve the system's portability and modularity, wrapper functions were created over Driver Library functions. These wrappers help maintain Object-Oriented Programming principles by preventing the direct use of global functions from Driver Library. Abstract layers have been developed for each hardware component, promoting system adaptability and simplifying the testing process. Consequently, to adapt the MMU to a new platform, modifications are only needed within these abstract layers.
+
+Initial consideration was given to the use of base classes for each abstraction, from which actual implementations or mock classes for testing could inherit. However, this was eventually deemed unnecessary as it introduced complexity without adding significant value.
+
+\subsection{Modularity}
+
+The MMU is designed with a strong emphasis on modularity, enabling the integration of future enhancements without necessitating changes to the core software. This is facilitated by the command pattern, a behavioral design pattern that encapsulates requests as objects. This approach allows for parameterization with various requests, supports queuing or logging of commands, and facilitates undoable operations, which makes it ideal for the firmware structure of the MMU.
+
+As a slave device, the MMU executes incoming requests, making the straightforward application of the command pattern particularly effective. Each command is implemented as a mini state machine, optimizing the execution flow and ensuring reliable operation under diverse conditions. Instead of utilizing the traditional, complex state pattern, the MMU avoids this approach to prevent potential overhead and complexity associated with managing a large number of simple states.
+
+To implement a new feature for the MMU, it is only necessary to add a new class derived from the \texttt{CommandBase} class, as the \texttt{App} class manages the system and maintains the currently executed command.
+
+Code snippet~\ref{lst:mainloop} illustrates the mainloop of the app, which schedules and executes the steps of the appropriate command based on the printer's requests.
+
+\begin{lstlisting}[language=c++, caption={App mainloop},label={lst:mainloop},basicstyle=\ttfamily\small]
+void App::Step()
+{
+    if (HasPendingRequest()) {
+        auto request = protocol.GetRequest();
+        ProcessRequest(request);
+    }
+
+    currentCommand->Step();
+}
+\end{lstlisting}

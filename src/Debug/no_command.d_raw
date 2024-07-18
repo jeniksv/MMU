@@ -1,0 +1,12 @@
+no_command.o: ../no_command.cpp /home/jenda/Bakalarka/src/no_command.h \
+  /home/jenda/Bakalarka/src/command_base.h \
+  /home/jenda/Bakalarka/src/error_codes.h \
+  /home/jenda/Bakalarka/src/progress_codes.h
+
+/home/jenda/Bakalarka/src/no_command.h:
+
+/home/jenda/Bakalarka/src/command_base.h:
+
+/home/jenda/Bakalarka/src/error_codes.h:
+
+/home/jenda/Bakalarka/src/progress_codes.h:

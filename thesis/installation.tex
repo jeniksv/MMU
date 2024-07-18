@@ -1,0 +1,104 @@
+%installation guide -> through docker file or ccs
+\chapter{Firmware installation}
+
+\section*{Dependencies}
+
+Before we even start, we need to clone the repository.
+
+\begin{verbatim}
+git clone https://gitlab.mff.cuni.cz/teaching\
+/nprg045/zavoral/2023/svojanovsky.git
+\end{verbatim}
+
+\section{Building the project}
+If you prefer not to build the firmware yourself, you can use the pre-compiled \texttt{.hex} or \texttt{.out} file available at project \texttt{bin/}. If you choose to build custom firmware for the MMU, there are two recommended options:
+
+\subsection{CCS IDE (recommended for developers)}
+
+Install and use CCS IDE \cite{ccs} by following the guide at \url{https://www.ti.com/tool/CCSTUDIO#downloads}. Import, compile, and flash the project using CCS IDE.
+
+\subsection{Docker (recommended for users)}
+Make sure that ccs.zip is available, as it contains the precompiled TI tools. Ensure that ccs.zip is placed in the same directory as the Dockerfile. You can download ccs.zip with the following commands:
+    \begin{verbatim}
+pip install gdown
+gdown --fuzzy https://drive.google.com/file\
+/d/1ZBEsj6Eg6csbiBnJ7NR2hM3EE8CU-gaL/view?usp=sharing
+    \end{verbatim}
+Before proceeding, ensure that the MMU is plugged into your computer and visible among devices. On Linux, you can build and run the Docker container with the MMU attached using the following commands:
+    \begin{verbatim}
+docker build --no-cache -t mmu .
+docker run -it --privileged -v /dev/bus/usb:/dev/bus/usb mmu
+    \end{verbatim}
+In the Docker container, you can build the app with the following command:
+    \begin{verbatim}
+cd /app/src/Debug
+make all
+    \end{verbatim}
+In the Docker container, you can ensure the MMU device is recognized with the following command:
+    \begin{verbatim}
+/ccs/xdsdfu -e
+    \end{verbatim}
+Once recognized, you can then flash the device with:
+    \begin{verbatim}
+/ccs/uniflash_8.7.0/dslite.sh \
+--config=/app/src/targetConfigs/MSPM0G3507.ccxml \
+-f /app/src/Debug/src.out
+    \end{verbatim}
+
+\subsection{Manual Installation}
+Manual installation is also an option, though it is not recommended due to the complexity involved. The requirements for this approach include:
+\begin{itemize}
+    \item GNU Make \cite{make}
+    \item TI ARM-CGT-CLANG (version 3.2.1.LTS tested) \cite{compiler}
+    \item TI SYSCONFIG (version 1.19.0 tested) \cite{sysconfig}
+    \item TI mspm0 SDK (version 2.0.1 tested) \cite{sdk}
+    \item TI UniFlash \cite{uniflash}
+\end{itemize}
+
+Since the project makefile is generated, you must correct the paths to your TI tools. You can use provided \texttt{replace\_path} script:
+\begin{verbatim}
+./scripts/replace_path "." \
+"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/" \
+"<path to compiler>/compiler/ti-cgt-armllvm_3.2.1.LTS/"
+./scripts/replace_path "." \
+"/home/jenda/ti/ccstheia131/ccs/utils/sysconfig_1.19.0/" \
+"<path to sysconfig>/utils/sysconfig_1.19.0/"
+./scripts/replace_path "." \
+"/home/jenda/ti/mspm0_sdk_2_00_01_00/" \
+"<path to sdk>/mspm0_sdk_2_00_00_03/"
+\end{verbatim}
+
+You can then compile the firmware with these commands:
+\begin{verbatim}
+cd <path to app>/src/Debug
+make all
+\end{verbatim}
+
+The src.out or src.hex files are generated and can be used for flashing with the UniFlash tool.
+
+\section{Project Tests}
+Tests are built using CMakeLists, which simplifies the process as the TI tools are unnecessary; all microcontroller peripherals are mocked.
+
+Requirements for building the tests are:
+\begin{itemize}
+    \item CMake \cite{cmake}
+    \item Google Test \cite{google-test}
+\end{itemize}
+
+First, we need to update the submodules of the project:
+\begin{verbatim}
+git submodule update --init --recursive
+\end{verbatim}
+
+You can compile the tests with these commands:
+\begin{verbatim}
+mkdir build && cd build
+cmake ..
+cmake --build .
+\end{verbatim}
+
+To run the tests, ensure you execute the \texttt{test\_runner} binary from the project root directory due to specific file path configurations:
+\begin{verbatim}
+./build/test_runner
+\end{verbatim}
+

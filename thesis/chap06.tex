@@ -1,0 +1,45 @@
+\chapter{Evaluation}
+
+After completing the MMU implementation, it is necessary to assess the project across various dimensions, including functionality, usability, reliability, and performance.
+
+\section{Usability}
+
+The MMU is designed to be user-friendly. Users only need to connect the communication cable to the printer, install the Filament Hub on top of the extruder head, and enable MMU usage in the settings. The control of the MMU is facilitated through the printer's menu interface. From there, users can manually initiate all printer actions related to the MMU.
+
+However, there is room for improvement, particularly in error handling. Currently, when the printer attempts to resolve a filament jam and is unsuccessful, it enters an error state, disables all motors, and waits for user intervention. In most cases, the user must restart the printing process.
+
+To facilitate firmware compilation and flashing, a Dockerfile is provided for convenience. Users simply need to connect the cable to the board and flash the new firmware using the Uniflash tool from Texas Instruments.
+
+\section{Reliability}
+
+In the final firmware, a reliability test was conducted. The tested functions within included: loading filament into the MMU, ejecting filament from the MMU, loading filament into the extruder's nozzle, unloading filament from the extruder's nozzle, and tool change. Each function was performed ten times. Following these tests, printing was initiated ten times as part of the overall evaluation process.
+
+The following results came from the test:
+
+\begin{itemize}
+    \item \textbf{Load and eject filament}: The results were excellent, as everything worked as expected. These commands do not require synchronization with the printer and rely only on two filament sensors, minimizing potential failure points.
+    \item \textbf{Load to nozzle and unload from nozzle}: These functions also succeeded in all ten attempts.
+    \item \textbf{Tool change}: This process is a combination of the previously mentioned commands load to nozzle and unload from nozzle. The results were similarly promising. Some automatic unsticking by the MMU was necessary during operations, indicating occasional issues but generally successful execution.
+    \item \textbf{Print}: Over 100 filament changes were made during 10 regular prints with the MMU system. Six prints were completed without assistance, three required manual intervention to resolve filament jams but were completed successfully and one failed to print due to filament forming a bulb at the end, preventing entry into the hub, necessitating disassembly of the hub. This problem could potentially be addressed by trimming the filament.
+\end{itemize}
+
+
+Interestingly, when loading and unloading filament manually through the printer's GUI, no problems occurred. However, problems arose during the printing process. This discrepancy, observed even before the final stress test, remains unexplained but highlights a decline in performance during actual printing compared to manual operations. This inconsistency is a crucial area for future investigation to determine the underlying cause.
+
+Given the fact that this is a prototype, the durability of the system has not been thoroughly tested. Future iterations of the test should consider different print materials; PETG \cite{petg} was used for all operations in this test.
+
+\section{Performance}
+
+Performance has been assessed using the XDS110 debugger \cite{debugger}, and the current implementation does not show any significant performance issues. Although no specific low-level optimizations have been applied, several strategies have been employed to minimize resource wastage.
+
+In the MMU firmware, memory usage is carefully optimized across both flash and SRAM, demonstrating a thoughtful approach to resource management crucial for embedded systems. The flash memory is primarily utilized by the main executable code, which occupies 8,576 bytes, supplemented by smaller allocations for interrupt vectors, read-only data, and initialization routines, totaling 9k out of 128k available. This reflects a minimalistic yet functional codebase.
+
+SRAM usage is similarly efficient, with 3,032 out of 32,768 bytes employed. The significant portion of this is dedicated to system operations under .sysmem, reflecting essential core functionalities. Further allocations are made for printer communication and resource management mechanisms in the .data segment. The firmware also reserves moderate space for the call stack and uninitialized data, which supports runtime operations without overburdening the system.
+
+This memory management strategy underscores the firmware's capability to perform its required functions within a limited memory footprint, thus enhancing both the stability and efficiency of the system. The allocation patterns indicate prioritized support for critical operations and stability, crucial for the reliable performance of embedded systems in practical applications.
+
+\section{Feature overview}
+
+The MMU is designed to provide essential functionalities required for successful printing, primarily focusing on tool changes. Additionally, it facilitates loading and ejecting of filament into the system, which helps to avoid manual insertion of filament into PTFE tubes.
+
+Compared to the more advanced MMU3 from Prusa Research, the current MMU version has a more limited feature set. Notably, it lacks a filament cut option due to the absence of a mechanical solution for cutting the filament. This limitation restricts its operational flexibility. Furthermore, incorporating diagnostic LEDs would be a beneficial enhancement, as these could provide immediate visual feedback on system status or issues. Similarly, adding buttons for quick error resolution would improve user interaction, making it easier to manage and resolve operational problems directly from the device.

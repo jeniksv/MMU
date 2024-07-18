@@ -1,0 +1,46 @@
+\chapter{Analysis}
+
+To evaluate the feasibility of the proposed MMU, it is essential to analyze existing alternatives. This chapter will provide a thorough examination of alternative solutions, underscoring their drawbacks and limitations. Additionally, we will explore the necessary requirements for the implementation of MMU system.
+
+\section{Analysis of alternatives}
+
+\subsection{Multiple extruder heads}
+
+In this configuration, each extruder is equipped with its own nozzle, and is specifically dedicated to a distinct type of filament. Multiple extruders are mounted on the gantry of the printer. These may be positioned side by side or designed to activate sequentially. The printer's control system switches between these extruders based on the material requirements of different sections of the print. This setup demands meticulous calibration to ensure that each nozzle is precisely aligned at the same height to prevent any interaction with the part being printed, which could result in damage to both the print and the printer. This strategy is exemplified by the printer Prusa XL \cite{prusa-xl}.
+
+\subsection{Single extruder head with one motor for filament pushing}
+
+The central element of this system is a selector motor, tasked with choosing the active filament. The motor maneuvers a mechanical selector to align with the intended filament’s feed path, thus enabling seamless switching between different filaments during the printing process. After selection, a single motor for filament pushing engages to pull the chosen filament toward the printer’s extruder. The precision of the motor for filament pushing is essential to ensure consistent filament feed and prevent slippage, which is vital for maintaining print quality. The system also incorporates an idler mechanism that works in tandem with the motor for filament pushing to maintain appropriate tension on the filament, preventing tangling and ensuring smooth filament delivery. However, the reliance on a single selector and motor for filament pushing can increase mechanical complexity and potential failure points. This arrangement is utilized by the Prusa MMU3 for MK4.
+
+\subsection{Single extruder head with multiple motors for filament pushing}
+
+Each filament spool in this system is equipped with a dedicated motor for filament pushing. This motor plays an important role in ensuring that the filament is fed smoothly and consistently into the printer. Central to the system is the Filament Hub, which works as the control center that manages the filament's journey from the spool to the printer. This hub is outfitted with various sensors that continuously monitor the filament's presence and movement. These sensors are crucial for detecting any irregularities such as filament run-outs or jams. If a run-out or jam is detected, the system can automatically pause the printing operation, alerting the user to the issue and preventing damage or wastage. Given the fact, that the implementation of the first approach is nearly impossible for the MK4, and the second approach is already in use, this thesis will focus on exploring the third variant.
+
+\section{System requirements}
+
+In developing firmware for systems where mechanical solutions have already been decided, it is time to thoroughly inspect the system requirements. 
+
+The primary function of the MMU is to manage multiple input filaments to select and feed the appropriate filament to the printer’s bondtech gears for trouble-free printing operations.
+
+Drawing inspiration from the Prusa MMU3 \cite{prusa-mmu3}, which operates under the master-slave principle \cite{master-slave}, our implementation will similarly designate the printer as the master and the MMU as the slave. This setup utilizes a specific MMU port on the printer to relay commands, ensuring that the MMU is capable of proper communication. While the communication protocol of the Prusa MMU3 provides a starting point, it will require adjustments to tailor it to our system's specific needs, enhancing its efficiency and reliability in our targeted applications.
+
+\subsection{MMU functionality}
+
+The MMU should manage the following functions:
+\begin{itemize}
+    \item \textbf{Load filament}: This function should be responsible for positioning the filament in readiness for printing. It parks the filament before the Filament Hub, preparing it for engagement with the rest of the machine's feeding system. This step ensures that the filament is properly aligned and ready for a seamless feed into the printer.
+    \item \textbf{Eject filament}: This function fully unloads the filament from the MMU and the associated bowden tube after printing is complete. This step is crucial for clearing the entire path, ensuring that no filament remnants obstruct or interfere with subsequent filament loads, thereby preventing any potential jams or material mixing within the printer’s mechanism.
+    \item \textbf{Load filament to nozzle}: This function aids the extruder by pushing the filament towards and into the nozzle. It ensures that the filament is fed consistently and reaches the nozzle without any interruptions, which is vital for accurate and quality printing.
+    \item \textbf{Unload filament from nozzle}: This function retracts the filament from the nozzle and parks it before the Filament Hub. It should be designed to disengage the filament from the printing area, preparing it for ejection or for being securely stored away from the primary mechanical pathways. This action helps to achieve a smooth transition between different filaments without cleaning or additional maintenance interventions.
+    \item \textbf{Tool change}: This function is the most complex one. It essentially consists of the two previously mentioned commands: Load filament to nozzle and Unload filament from nozzle.
+\end{itemize}
+￼
+While the printer is idle, all these operations can be manually initiated by the user from a stand-alone mode through the MMU menu. This capability does not require any special implementation, as the MMU operates as a slave device and merely carries out the commands from the printer. Furthermore, since the menu system is already developed for the Prusa MMU3, this functionality should be readily available without additional cost.
+
+\subsection{Communication with printer}
+
+Initially, the intention was to employ CAN bus \cite{can}, a modern communication medium extensively utilized in automotive applications. This solution, while complex, was considered potentially beneficial. Unfortunately, the MK4 does not have CAN bus connectivity available on its board. Consequently, the alternatives narrowed down to either RS232 or RS485 \cite{uart}.
+
+For a time, we contemplated using the Modbus protocol \cite{modbus} over RS485, since this protocol is already integrated into the MK4 printer for internal communications. However, this option was quickly dismissed due to prior experiences. Modbus, while robust and well-established in industrial automation, tends to involve substantial overhead both in terms of the byte count necessary for data transmission and its framing structure. Given its age and design focus, Modbus might not support some features offered by more contemporary protocols.
+
+The final decision was to continue using the text protocol over RS232, as it is currently employed in the existing Prusa MMU3 setup via UART. There is no compelling reason to deviate significantly from this existing protocol, as it meets our needs well. Adjustments will be minimal since not all aspects of the current implementation are required. Additionally, the printer is already configured to UART at a baud rate of 115200, making this a practical choice.

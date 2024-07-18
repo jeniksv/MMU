@@ -1,0 +1,66 @@
+What is does:
+	-> slave system, receiveing commands from printer:
+	-> so there is need of communication protocol implementation
+	-> slave system (mspm0g microcontroller) handles requests from printer and always responsds with asnwer
+	-> slave system handle motor moves 
+
+Big caveats:
+	-> TI microcontroller
+	-> since their mspm0g series of chips is very new, there is bad support (first revision release in mid october)
+	-> it was lot of experimenting with motors and sensor, how to setup properly to do thei job!
+	-> it was about reading lot of documentation
+	-> big part of solution was reading datasheets of electronics used in project
+
+
+System performance:
+-> restrictions on performance (ideal would be every microcontroller can handle this
+-> slave system requirements (2kB RAM and 8kB of flash memory)
+
+Flash usage -> plenty of space
+	-> current .hex file has around 6kB
+
+	-> developed on two platforms
+	-> atmega platform has around, but because of 
+
+RAM usage
+
+uart -> cant poll
+	-> on interrupt
+time ->
+	-> on interrupt one millisecond
+
+adc values -> 
+	decision was between polling value (active wait) and interrupt handling, but i have decided it is not neccesary handle values
+	since command most of time needs only one value from adc 14 bit resultion -> 
+	-> so i dont want to compute all of them on interrupt, despite it will be more precise
+
+i would say result it promising because even low memory and permonace microcontroller can be used with this project
+
+
+Architecture ->
+
+
+UNIQUE_PTR is overhead for code
+
+
+
+Conclusion && Future work
+	-> It turned out , extruder is way stronger motor does not need another support by motor
+	-> This solution surprisinly works better. I would say becase of low resolution of 
+	-> hal sensor are not hat accurate
+	-> better error handling, since right now, when unstucking does not work, print fails and there are no tries to recover from this state
+	-> 
+
+
+Developement of project is harder
+
+Setup is very similar to current MMU
+	-> flash firmware to microcontroller using uniflash tool from texas instruments
+	-> you have to enable MMU unit in settings
+	-> then you have to 
+
+Zeptat se na jednotky
+-> mam psat 5 V nebo 5V
+-> jestli popisy v kapitole 3 u obrazku plosnych spoju a jejich schemat staci, nebo je lepsi to rozvinout
+-> mam pocit, ze nikde nereferencuji, co je feeding system, 
+-> dava smysl kapitola Development environment and tools

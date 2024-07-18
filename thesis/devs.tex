@@ -1,0 +1,20 @@
+\chapter{Development environment and developement tools}
+
+\section{Build system}
+
+Texas Instruments offers specialized build tools tailored for controller hardware configuration, known as SysConfig \cite{sysconfig}. SysConfig is instrumental in streamlining the configuration process of the hardware, allowing developers to adjust hardware settings and parameters through a user-friendly interface. This tool generates configuration files that are integral in defining how the hardware operates, optimizing hardware utilization for specific applications.
+
+Alongside SysConfig, Texas Instruments also provides tools for building the software system. These tools are capable of automatically generating makefiles, which are essential for managing the build process of the software. Makefiles \cite{make} created by these tools ensure that the compilation process is efficient and manages dependencies and compilation rules in a way that enhances the build execution.
+
+Furthermore, for the development and maintenance of high-quality software, unit testing is crucial. Unit tests are built using CMake \cite{cmake}, a robust open-source system that facilitates the process of compiling, linking, and testing the application. CMake supports cross-platform builds and is favored for its ability to generate makefiles and project files that can be used in various integrated development environments. This feature is particularly useful for testing environments where consistency across different development platforms is required.
+
+Incorporating these tools into the development process ensures a seamless transition from hardware configuration to software deployment, enhancing the efficiency and reliability of the development process. Each component—from SysConfig for hardware configuration, automated makefile generation for software builds, to CMake for unit testing—plays a pivotal role in the lifecycle of firmware development, ensuring that both hardware and software are optimally configured and tested before deployment.
+
+\section{Testing framework}
+
+Firmware testing involves verification process that establishes whether the code performs as expected under real-world operational conditions. For this purpose, Google Test \cite{google-test} has been selected as the testing framework thanks to its integration with Google Mock \cite{google-mock}, which facilitates comprehensive testing scenarios including mocking capabilities. While Catch2 \cite{catch2} is also considered, it has not been chosen because it lacks built-in support for mocks. To enhance the testing process, data is collected directly from the printer during operation, which is then utilized as an input for unit tests to ensure that tests are grounded in actual performance metrics.
+
+\section{Deployment}
+
+The Docker container \cite{docker} is set up for the project; however, it is not recommended to develop code directly within it. The project’s makefile is generated automatically by Texas Instruments developement tools \cite{ccs}, meaning the Docker environment is better suited as a deployment tool rather than a development environment. This setup helps ensure that the development process remains consistent and manageable across different systems, while Docker primarily handles the integration and deployment phases.
+

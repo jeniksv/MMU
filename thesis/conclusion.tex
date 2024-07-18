@@ -1,0 +1,18 @@
+\chapwithtoc{Conclusion and Future Work}
+
+In this thesis, we have explored the design and firmware implementation of the MMU. We have developed a communication protocol on the Texas Instruments controller that receives requests from the printer and responds accordingly. Subsequently, we have implemented the control of motors and sensors. We have also designed an easily expandable architecture for the slave system and created a functional proof-of-concept prototype of the MMU.
+
+It was discovered that the extruder has sufficient force to pull the filament, and no motor synchronization is required except during the filament loading to nozzle, so MMU motors can idle on low PWM. The use of MMU does not affect print quality in any way. The setup of the TI microcontroller and developement tools was challenging, because mspm0g family was released in mid october in 2023 and a revised version of the software developement kit was released in late march 2024.
+
+Looking ahead, there are several promising avenues for future research and development to further improve:
+
+\begin{itemize}
+    \item \textbf{Communication}: Using the CANBus instead of UART in the next generation of Prusa MK printers could not only potentially enhance reliability but also ensure firmware compatibility within the overall system design.
+    \item \textbf{Hall effect sensor reliability}: Conducting experiments with wavelet transform or Kalman filter \cite{kalman-filter} could be beneficial in achieving better noise detection from Hall effect sensors.
+    \item \textbf{Motor control}: While current motor control suffices, exploring alternative solutions like PID regulation could yield further optimization.
+    \item \textbf{Additional features}: While the reliability of the custom MMU is not on par with the Prusa MMU3, incorporating a filament cutting mechanism could improve its performance. Additionally, implementing filament depletion detection would be also beneficial. Currently, these functions rely on user intervention.
+    \item \textbf{Thorough testing}: It is essential to conduct a much larger sample of tests. This can uncover deficiencies that may not have surfaced due to their low probability of occurrence.
+    \item \textbf{Real-world deployment}: Once everything has been thoroughly tested, the next step involves designing the circuit board and devising solutions for cost-effective electronic integration to move the product into production.
+    \item \textbf{Backward compatibilty}: The MMU system should be backward compatible with older versions of MK series printers \cite{prusa-printers}, although this compatibility has not been tested. It is important to inspect whether the MMU system can also be compatible with the Prusa Mini printer \cite{prusa-mini}. Compatibility with the Prusa Mini is uncertain due to differences in extruder head design compared to the MK series.
+\end{itemize}
+

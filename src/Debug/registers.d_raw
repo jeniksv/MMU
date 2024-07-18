@@ -1,0 +1,6 @@
+registers.o: ../registers.cpp /home/jenda/Bakalarka/src/registers.h \
+  /home/jenda/Bakalarka/src/config.h
+
+/home/jenda/Bakalarka/src/registers.h:
+
+/home/jenda/Bakalarka/src/config.h:

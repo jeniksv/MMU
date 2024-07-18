@@ -1,0 +1,208 @@
+\chapter{Implementation}
+
+This chapter discusses the implementation details, starting with the protocol, covering hardware components, and concluding with control and application logic.
+
+\section{Protocol}
+
+\subsection{Data Transmission Handling}
+
+As already mentioned, the communication between the printer and the MMU is facilitated via a serial port operating at a baud rate of 115200. To manage data transmission efficiently, specific hardware and software configurations were required. The MSPM0G3507 microcontroller, equipped with a 4-byte hardware queue, presented a challenge due to its limited size and potential for blocking operations. Furthermore, if managed improperly, incoming data during receive operations could overwrite existing values in the queue.
+
+To address these challenges, two primary methods were considered: direct memory access (DMA) and interrupts. The chosen approach was to use interrupts for both transmitting and receiving data. This setup allows the UART communication to be tied to interrupts that fill a software-managed queue within the \texttt{UART} class. This approach explains decision why the \texttt{UART} class is not instantiated on the stack but must be initialized globally to ensure accessibility in interrupt handler.
+
+\subsection{Parsing automaton}
+
+The implementation of the protocol is essential to the entire application, with the accuracy of the decoding automaton being important. If the implementation lacks precision, the MMU may not respond correctly to requests from the printer. This protocol strictly follows the request-response principle, where the MMU acts passively, responding only to commands or queries from the printer.
+
+Cyclic redundancy check (CRC) \cite{crc} is utilized for data integrity. It is relevant to mention that the CRC checksum is calculated not from the textual representation of messages, but from their internal binary format. All values within the messages are represented in hexadecimal format using lowercase letters, with leading zeros omitted to enhance efficiency.
+
+The parsing automaton is implemented using the state pattern. While adding new states is not typically expected, we wanted to adhere good practices. Parsing automaton manages the input in different stages:
+
+\begin{itemize}
+    \item \textbf{Code state}: This is where the automaton begins its process. If it receives any of the specific set of characters, it transitions to the Value state, prepared to process the code. Encountering a newline keeps it in the start state, either resetting after a command or ignoring empty inputs. An asterisk at this point leads to the Error state, indicating an invalid input early in the process.
+    \item \textbf{Value state}: After receiving an initial valid character, the automaton expects numerical digits. Upon receiving such digit, it moves into the Value state to accumulate these digits as part of a request argument. If a non-numeric character appears, the automaton shifts to the Error state due to unexpected input. An asterisk at this point leads to the CRC state.
+    \item \textbf{CRC state}: This state processes the CRC value. The automaton here verifies the CRC based on the digits received after the asterisk. A newline in this state signifies that the entire command, including the CRC, has been successfully parsed and processed, and the automaton resets to the start state. An error in this sequence or any non-digit character leads to the Error state.
+    \item \textbf{Error state}: This state addresses any input errors throughout the process. A newline causes a reset to the start state, ready for new input, while staying in this state after other inputs indicates unresolved errors.
+\end{itemize}
+
+\subsection{Requests}
+
+Parsing automaton differentiates between two types of requests: commands and queries.
+
+\begin{itemize}
+    \item \textbf{Command}: Operations that may take an extended period to complete. Only one command can be processed at a time, ensuring that commands are handled sequentially without interference. 
+    \item \textbf{Query}: In contrast, queries are brief and typically request specific information from the MMU. These can be sent and processed at any time, even during the execution of a command, making them highly flexible and responsive.
+\end{itemize}
+
+Table~\ref{tab:aaaa} shows possible request from printer.
+
+\begin{table}[ht]
+    \centering
+    \caption{Printer requests}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+	& \textbf{Code}  & \textbf{Arguments} & \textbf{Type}  \\
+        \hline
+	Query & Q & -- & query \\
+        \hline
+	Tool & T & slot index & command \\
+        \hline
+        Load & L & slot index & command \\
+        \hline
+	Unload & U & -- & command \\
+        \hline
+	Version & S & version index & query \\
+        \hline
+	Eject & E & slot index & command \\
+        \hline
+	Write & W & register address, new value & query \\
+        \hline
+	Filament Sensor & F & -- & query \\
+        \hline
+	Read & R & register address & query \\
+        \hline
+    \end{tabular}
+    \label{tab:aaaa}
+\end{table}
+
+Query (Q) serves to query the current command state of the printer. It requires no arguments and is used to report the current state of a command or process. Tool (T) is a command for changing the tool or filament slot by accepting a slot index. Load (L) commands the system to preload filament into the MMU from the specified slot index before it reaches the Filament Hub. Unload (U) parks the filament back from the extruder to a position before the Filament Hub and does not require any arguments. Version (S) queries for details like firmware or hardware versions, specifying which version information (major, minor, patch, build) to retrieve with an index from 0 to 3. Eject (E) is used to eject filament from the MMU system at a specified slot index from. Write (W) command in the context of an MMU printer system, serves a  function by writing a value to the register array. It communicates specific control information from the printer. Filament Sensor (F) queries the state of the feeding system’s filament sensor without requiring any arguments. The Read (R) query is used to report values from a register array to the printer.
+
+Figure~\ref{fig:request-grammar} shows a context-free grammar that describes the structure of a request.
+
+\begin{figure}[ht]
+\centering
+\caption{Request grammar}
+\label{fig:request-grammar}
+
+\textbf{Terminals} \( T \): \[ T = \{\text{ASCII characters}\} \cup \{\epsilon\} \]
+
+\textbf{Variables} \( V \): \[ V = \{\text{Request, Code, Arg1, Arg2, CRC, X, End, Sep}\} \]
+
+\textbf{Starting Symbol}: \[ S = \{\text{Request}\} \]
+
+\textbf{Production Rules}:
+\begin{align*}
+\text{Request} & \to \text{Code Arg1 Arg2 Sep CRC End} \\
+\text{Sep} & \to \texttt{'*'} \\
+\text{End} & \to \texttt{'\textbackslash n'} \\
+\text{Code} & \to \texttt{'Q'} \mid \texttt{'T'} \mid \texttt{'L'} \mid \texttt{'U'} \mid \texttt{'S'} \mid \texttt{'E'} \mid \texttt{'W'} \mid \texttt{'F'} \mid \texttt{'R'} \\
+\text{Arg1} & \to \text{X} \mid \text{X X} \mid \text{X X X} \mid \text{X X X X} \\
+\text{Arg2} & \to \text{Arg1} \mid \epsilon \\
+\text{CRC} & \to \text{X} \mid \text{X X} \\
+\text{X} & \to \texttt{'0'} \mid \texttt{'1'} \mid \texttt{'2'} \mid \texttt{'3'} \mid \texttt{'4'} \mid \texttt{'5'} \mid \texttt{'6'} \mid \texttt{'7'} \mid \texttt{'8'} \mid \texttt{'9'} \\
+\text{X} & \to \texttt{'a'} \mid \texttt{'b'} \mid \texttt{'c'} \mid \texttt{'d'} \mid \texttt{'e'} \mid \texttt{'f'} \\
+\end{align*}
+\end{figure}
+
+As an example, request \texttt{L0*73} can be analyzed as follows: \texttt{L} represents the Load Filament operation, specifying the type of command to be performed. The \texttt{0} identifies the slot index targeted for this operation. The asterisk functions as a separator, delineating the end of the payload section of the command. The sequence \texttt{73} corresponds to the hexadecimal value \texttt{0x73}, which is the CRC checksum, ensuring the integrity of the command data.
+
+\subsection{Responses}
+
+In the system described, every request receives a specific type of response based on the outcome of the request. These responses are differentiated by key arguments that denote the status and outcome of the operations performed:
+
+\begin{itemize}
+    \item \textbf{P (Processing a command)}: This response indicates that a command is currently being processed. It is often accompanied by a progress code, which provides specific details about the stage of processing, such as \texttt{P4*22}. These codes are defined in a dedicated progress code file, enabling detailed tracking of command execution.
+    \item \textbf{E (Error occurred during processing of a command)}: This response is triggered when an error interrupts the normal processing of a command. The \texttt{T0 E8abc*33} response is an instance where \texttt{8abc} points to a specific error code, which can be looked up for a detailed explanation in the error documentation. This code helps the user to diagnose the nature of the problem and to apply corrective measures.
+    \item \textbf{F (Finished a command)}: This response type confirms the end of a command cycle and is used when a command has been fully processed and completed successfully.
+    \item \textbf{A (Accepted a command)}: This response is generated when a command is successfully accepted for processing. For example, \texttt{T0 A0*11} indicates that a particular command, identified by \texttt{T0}, has been accepted without any issues.
+    \item \textbf{R (Rejected a command)}: This type of response occurs when a command cannot be processed, typically due to a conflict such as an already ongoing command. For instance, \texttt{T0 R0*22} signifies that the command was rejected possibly because another command is still in progress.
+
+\end{itemize}
+
+By utilizing these codes, the system ensures that each operation, whether successful, in progress, or failed, is logged and responded appropriately, thereby maintaining a robust and efficient operational environment.
+
+Figure~\ref{fig:response-grammar} shows a context-free grammar that describes the structure of a response.
+
+\begin{figure}[ht]
+\centering
+\caption{Response grammar}
+\label{fig:response-grammar}
+
+\textbf{Terminals} \( T \): \[ T = \{\text{ASCII characters}\} \]
+
+\textbf{Variables} \( V \): \[ V = \{\text{Response, RequestCode, Result, ResponseCode, Space, X, Arg, End, Sep, CRC}\} \]
+
+\textbf{Starting Symbol}: \[ S = \{\text{Response}\} \]
+
+\textbf{Production Rules}:
+\begin{align*}
+\text{Response} & \to \text{RequestCode Arg Space ResponseCode Arg Sep CRC End} \\
+\text{RequestCode} & \to \texttt{'Q'} \mid \texttt{'T'} \mid \texttt{'L'} \mid \texttt{'U'} \mid \texttt{'S'} \mid \texttt{'E'} \mid \texttt{'W'} \mid \texttt{'F'} \mid \texttt{'R'} \\
+\text{ResponseCode} & \to \texttt{'P'} \mid \texttt{'E'} \mid \texttt{'F'} \mid \texttt{'A'} \mid \texttt{'R'} \\
+\text{Sep} & \to \texttt{'*'} \\
+\text{End} & \to \texttt{'\textbackslash n'} \\
+\text{Space} & \to \texttt{' '} \\
+\text{Arg} & \to \text{X} \mid \text{X X} \mid \text{X X X} \mid \text{X X X X} \\
+\text{CRC} & \to \text{X} \mid \text{X X} \\
+\text{X} & \to \texttt{'0'} \mid \texttt{'1'} \mid \texttt{'2'} \mid \texttt{'3'} \mid \texttt{'4'} \mid \texttt{'5'} \mid \texttt{'6'} \mid \texttt{'7'} \mid \texttt{'8'} \mid \texttt{'9'} \\
+\text{X} & \to \texttt{'a'} \mid \texttt{'b'} \mid \texttt{'c'} \mid \texttt{'d'} \mid \texttt{'e'} \mid \texttt{'f'} \\
+\end{align*}
+\end{figure}
+
+
+\section{Sensor implementation}
+
+Implementing Hall effect sensors in the MMU required considerable experimentation to ensure accurate and noise-free readings, as the sensors produce an analog value. To transform these analog signals into reliable digital data, several strategies were employed. The first step involved using an Analog-to-Digital Converter (ADC) to convert the analog signal to a digital format, which is critical as it forms the basis of all subsequent data processing and decision-making.
+
+To further refine the sensor data and mitigate the effects of noise, a combination of averaging and median filtering was applied through a sliding window algorithm. This method helps smooth out transient spikes and drops in the sensor readings, providing a more stable output over time. Additionally, exponential smoothing was implemented, which gives more weight to recent data points, making the output more responsive to changes while still damping down the noise.
+
+In terms of managing sensor data within the firmware, the decision was made to use polling rather than interrupts for updating sensor values. This approach was adopted because typically only two sensor values are required at any given time. By polling for sensor values as needed, rather than continuously updating them, we reduce the computational load and decrease the likelihood of data corruption that can occur with frequent interrupts. This method ensures that sensor values are updated only when necessary, optimizing both system efficiency and reliability.
+
+\section{Motor}
+
+For the PWM-driven motor control in the microcontroller, it was necessary to set up timers for PWM \cite{pwm} functionality. The control of the motor is responsive to inputs from a Hall effect sensor, which monitors the sinusoidal waveforms, enabling precise management of the motor to complete one full 360-degree rotation.
+
+Considerable experimentation was required to fine-tune the thresholds for the outputs from the Hall effect sensor. Determining these thresholds was crucial to achieve the desired precision in motor control, ensuring that the motor operations are both smooth and accurate.
+
+Initially, it was planned to implement PID \cite{pid} regulation for the DC motors as a next step to refine control further. However, it turned out that the existing motor control was sufficiently effective and did not represent a bottleneck in the project.
+
+\section{Feeding system}
+
+We want the MMU software to support an unlimited number of materials, thus it must be designed to accommodate an expansion of the new feeding system.
+
+To integrate a new feeding system, initializing all hardware peripherals will be necessary, but nothing more is required, as the printer determines the correct feeding system to use. This system is then specified as an argument in the printer's request, according to the G-code generated from the slicer.
+
+Code snippet~\ref{lst:fs-creation} illustrates the creation of new feeding system. It initializes various hardware components like pulse width modulation (PWM) pin for motor control, general purspose input output (GPIO) pins for digital control inputs, and analog-to-digital (ADC) converter pins for sensor inputs. Each component is associated with specific instances of hardware interfaces. These interfaces are then used to configure a feeding system object, which is then stored in an array along with other similar systems, allowing for modular control of multiple feeding systems.
+
+\begin{lstlisting}[language=c++, caption={MMU feeding system creation},label={lst:fs-creation},basicstyle=\ttfamily\small]
+HAL::PWMPin cPwmPin(PWM_INST, GPIO_PWM_C1_IDX);
+HAL::GPIOPin stbyPin(MOTORS_STBY_PORT, MOTORS_STBY_PIN);
+HAL::GPIOPin cIN1Pin(MOTORS_CIN1_PORT, MOTORS_CIN1_PIN);
+HAL::GPIOPin cIN2Pin(MOTORS_CIN2_PORT, MOTORS_CIN2_PIN);
+HAL::ADCPin cFeedingSystemFSensorPin(ADC_INST, ADC_ADCMEM_3);
+HAL::ADCPin cMotorSensorPin(ADC_INST, ADC_ADCMEM_4);
+
+modules::DCMotor cMotor(cPwmPin, stbyPin, cIN1Pin, cIN2Pin);
+
+modules::FeedingSystemFilamentSensor cFeedingSystemFSensor(
+	cFeedingSystemFSensorPin
+);
+
+modules::MotorHalSensor cMotorSensor(cMotorSensorPin);
+
+modules::FeedingSystem cFeedingSystem(
+        cMotor, cFeedingSystemFSensor, cMotorSensor
+);
+
+modules::FeedingSystem feedingSystems[config::ToolCount] = {
+        aFeedingSystem, bFeedingSystem, cFeedingSystem
+};
+
+\end{lstlisting}
+
+
+
+\section{Logic}
+
+Once the motors and sensors are integrated into the system, and the system can interpret requests from the printer, the final step is to develop and integrate the logic that governs these operations. This includes the implementation of specific commands that orchestrate the functioning of the entire system to ensure optimal performance.
+
+\texttt{EjectFilamentCommand} involves activating the motor to run in reverse polarity as long as the Hall effect sensor in the feeding system detects the presence of the filament. This reverse operation leads to the ejection of the filament from the MMU.
+
+\texttt{LoadFilamentCommand} drives the filament forward until the Hall effect sensor in the Filament Hub detects its presence. Once detected, the motor reverses its polarity and parks the filament just before the Filament Hub and prepares it for the next operation.
+
+\texttt{UnloadFromNozzleCommand} simply parks the filament just before the Filament Hub, disengaging it from the nozzle.
+
+\texttt{LoadToNozzleCommand} started as an experimental approach that involved a slight trial and error method. The synchronization of the motor in the feeding system with the extruder is important. The speed of the DC motor is adjusted according to the output from the Hall effect sensor in the Filament Hub, which measures the tension in the Bowden tube.
+
+\texttt{ToolChangeCommand} combines the actions of the \texttt{UnloadFromNozzleCommand} and \texttt{LoadToNozzleCommand} commands. It is executed by calling these commands sequentially with adjusted parameters to facilitate a smooth transition between tools.
+

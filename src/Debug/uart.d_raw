@@ -1,0 +1,11 @@
+uart.o: ../uart.cpp /home/jenda/Bakalarka/src/uart.h \
+  /home/jenda/Bakalarka/src/config.h /home/jenda/Bakalarka/src/fifo.h \
+  /home/jenda/Bakalarka/src/hardware_component_base.h
+
+/home/jenda/Bakalarka/src/uart.h:
+
+/home/jenda/Bakalarka/src/config.h:
+
+/home/jenda/Bakalarka/src/fifo.h:
+
+/home/jenda/Bakalarka/src/hardware_component_base.h:

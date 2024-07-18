@@ -1,0 +1,90 @@
+\begin{tikzpicture}[every node/.style={font=\scriptsize}, node distance=1cm]
+    % Base Command class
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=-2, y=0]{App}{
+        -- CommandBase* currentCommand\\
+	-- Protocol protocol \\
+	-- Communication communication
+    }{
+        + Step (\ldots) \\
+        + PlanCommand (\ldots) \\
+        + CheckMessages (\ldots) \\
+        + \ldots
+    }
+    \end{scope}
+
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=3, y=-5]{CommandBase}{
+        -- ProgressCode state \\
+        -- ErrorCode error \\
+    }{
+	+ Step() \\
+	+ Reset() \\
+        + virtual StepInner() \\
+        + virtual ResetInner()
+    }
+    \end{scope}
+    
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=-5, y=-5]{ConcreteCommandBase}{
+        -- FeedingSystem (\&feedingSystems)[ ] \\
+        -- HubFilamentSensor\& sensor \\
+        -- Registers\& registers
+    }{
+        + virtual StepInner() \\
+        + virtual Reset() \\
+	+ Unstuck()
+    }
+    \end{scope}
+
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=-5, y=-13]{UnloadFromNozzleCommand}{
+    }{
+        + StepInner() override \\
+        + Reset() override
+    }
+    \end{scope}
+
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=-8, y=-10]{LoadFilamentCommand}{
+    }{
+        + StepInner() override \\
+        + Reset() override
+    }
+    \end{scope}
+
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=-1, y=-10]{LoadToNozzleCommand}{
+    }{
+        + StepInner() override \\
+        + Reset() override
+    }
+    \end{scope}
+
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=-4, y=-16]{EjectFilamentCommand}{
+    }{
+        + StepInner() override \\
+        + Reset() override
+    }
+    \end{scope}
+
+    \begin{scope}[scale=0.8, transform shape]
+    \umlclass[x=3, y=-15]{ToolChangeCommand}{
+	-- LoadToNozzleCommand\& \\
+	-- UnloadFromNozzleCommand\& 
+    }{
+        + StepInner() override \\
+        + Reset() override
+    }
+    \end{scope}
+
+    % Associations
+    \umlaggreg{App}{CommandBase}
+    \umlinherit{ConcreteCommandBase}{CommandBase}
+    \umlinherit{UnloadFromNozzleCommand}{ConcreteCommandBase}
+    \umlinherit{LoadFilamentCommand}{ConcreteCommandBase}
+    \umlinherit{LoadToNozzleCommand}{ConcreteCommandBase}
+    \umlinherit{EjectFilamentCommand}{ConcreteCommandBase}
+    \umlinherit{ToolChangeCommand}{CommandBase}
+\end{tikzpicture}

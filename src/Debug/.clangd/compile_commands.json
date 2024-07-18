@@ -1,0 +1,92 @@
+[
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/app.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/command_base.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/dc_motor.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/eject_filament_command.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/hal_time.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/load_filament_command.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/load_to_nozzle_command.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/main.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/no_command.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/pins.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/protocol.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/registers.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/tool_change_command.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/unload_from_nozzle_command.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/concrete_command_base.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/uart.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/feeding_system.cpp"
+   },
+   {
+      "directory" : "/home/jenda/Bakalarka/src/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/home/jenda/Bakalarka/src\" -I\"/home/jenda/Bakalarka/src/Debug\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source/third_party/CMSIS/Core/Include\" -I\"/home/jenda/ti/mspm0_sdk_2_00_01_00/source\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c++/v1\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/lib/clang/15.0.7/include\" -isystem\"/home/jenda/ti/ccstheia131/ccs/tools/compiler/ti-cgt-armllvm_3.2.1.LTS/include/c\"",
+      "file"      : "/home/jenda/Bakalarka/src/Debug/ti_msp_dl_config.c"
+   }
+]

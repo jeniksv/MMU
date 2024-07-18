@@ -1,0 +1,16 @@
+command_base.o: ../command_base.cpp \
+  /home/jenda/Bakalarka/src/command_base.h \
+  /home/jenda/Bakalarka/src/error_codes.h \
+  /home/jenda/Bakalarka/src/progress_codes.h \
+  /home/jenda/Bakalarka/src/config.h \
+  /home/jenda/Bakalarka/src/hal_time.h
+
+/home/jenda/Bakalarka/src/command_base.h:
+
+/home/jenda/Bakalarka/src/error_codes.h:
+
+/home/jenda/Bakalarka/src/progress_codes.h:
+
+/home/jenda/Bakalarka/src/config.h:
+
+/home/jenda/Bakalarka/src/hal_time.h:
